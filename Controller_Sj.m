@@ -44,10 +44,9 @@ kappasalpha = 1;
 kappasbeta = 1;
 d = 0.25;
 h = 0.25;
-A = 0;
 wb = 1;
 esB = Sd;
-sd = d+h*ds+A*v^2;
+sd = d+h*ds;
 es = esB-sd;
 global IFes_0 es_0
 if IFes_0(si)==0
